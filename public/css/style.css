@@ -17,13 +17,13 @@
     border: none;
     padding: 0;
     cursor: pointer;
-    color: #1b89bc;
+    color: #bc1b69;
     text-decoration: none;
     font-size: 100%;
   }
   
   .no-button:hover {
-    color: #065b83;
+    color: #bc1b69;
     text-decoration: underline;
   }
   
@@ -84,21 +84,21 @@
   }
   
   .post-title a:link{
-    color: #617ab7;
+    color: #b7619d;
     text-decoration: none;
   }
   
   .post-title a:visited{
-    color: #617ab7;
+    color: #b7619d;
     text-decoration: none;
   }
   
   .post-title a:hover{
     text-decoration: none;
-    color: #0e506e;
+    color: #bc1b69;
   }
   
-  .post-content{
+  .post-description{
     padding: 10px !important;
     text-align: left !important;
   }
