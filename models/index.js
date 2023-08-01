@@ -8,6 +8,9 @@ Post.belongsTo(User);
 Post.hasMany(Comment);
 Comment.belongsTo(Post);
 
+User.hasMany(Comment);
+Comment.belongsTo(User);
+
 // await User.sync({ force: true });
 // await Post.sync({ force: true });
 // await Comment.sync({ force: true });
